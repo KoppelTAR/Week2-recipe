@@ -6,6 +6,7 @@
     --headings-font-family: 'Alumni Sans', sans-serif;
     --text-font-family: 'Noto Sans JP', sans-serif;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -18,6 +19,7 @@ body {
     font-family: var(--text-font-family);
     color: var(--text);
 }
+
 h2{
     color: var(--headings);
     font-family: var(--headings-font-family);
@@ -25,18 +27,25 @@ h2{
     padding-bottom: 1rem;
 }
 
-
+.title {
+    color: var(--headings);
+    font-family: var(--headings-font-family);
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
 
 .middle-container {
     margin: 5rem 0;
 }
 
-
-.HeaderText {
+.headerText {
     width: 50%;
     text-align: left;
     margin: 2rem auto;
     overflow: hidden;
+    border: groove var(--headings);
+    padding: 1rem;
 }
 
 .img {
@@ -45,6 +54,74 @@ h2{
     margin-right: 2rem;
 }
 
-.Method {
+.preparation {
     margin-top: 2rem;
+}
+
+.list {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.listInnerBorder {
+    border: groove var(--headings);
+    padding: 2rem;
+}
+
+hr {
+    border: dotted var(--text) 12px;
+    border-bottom: none;
+    margin: 5rem auto;
+    margin-bottom: 1.5rem;
+    width: 50%;
+}
+
+.btn {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+  }
+  
+.btn:hover {
+    background-color: #555;
+  }
+  
+.btn:active {
+    background-color: black;
+  }
+
+.copyright {
+    margin: 5rem;
+}
+
+p {
+    line-height: 2;
+}
+
+.li-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.li-wrapper i {
+    margin-right: 1rem;
+}
+
+.li-wrapper a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+h3{
+    color: var(--headings);
+    font-family: var(--headings-font-family);
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
