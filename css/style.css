@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&family=Noto+Sans+JP&display=swap');
+:root {
+    --headings: #66FCF1;
+    --text:  #C5C6C7;
+    --background: #1F2833;
+    --headings-font-family: 'Alumni Sans', sans-serif;
+    --text-font-family: 'Noto Sans JP', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    text-align: center;
+    font-family: var(--text-font-family);
+    color: var(--text);
+}
+h2{
+    color: var(--headings);
+    font-family: var(--headings-font-family);
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.middle-container {
+    margin: 5rem 0;
+}
+
+
+.HeaderText {
+    width: 50%;
+    text-align: left;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.img {
+    width: 25%;
+    float: left;
+    margin-right: 2rem;
+}
+
+.Method {
+    margin-top: 2rem;
+}
