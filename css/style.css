@@ -125,3 +125,37 @@ h3{
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
+
+@media (max-width: 1024px) {
+    .img {
+        width: 60%;
+    }
+
+    li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .img {
+        width: 55%;
+    }
+    ul {
+        font-size: 1.1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .img {
+        width: 80%;
+    }
+
+    li {
+        margin-bottom: 0.5rem;
+    }
+
+    .headerText {
+        width: 70%;
+    }
+}
